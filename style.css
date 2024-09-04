@@ -1,0 +1,13 @@
+.box{
+    width:200px;
+    height: 200px;
+    background-color: brown;
+    margin:auto;
+    border-radius: 50%;
+}
+.box:hover{
+    background-color: black;
+    cursor: pointer;
+    border-radius: 30px;
+}
+

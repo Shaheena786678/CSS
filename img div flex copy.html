@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         
+        .one
+        {
+             width:55%;
+            height:500px;
+            }
+        .two{
+             width:45%;
+            height:500px;
+            
+            }
+            img{
+                width:100%;
+            height:auto;
+        }
+         .container
+        {
+            width:auto;
+            height:auto;
+            margin:auto;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: blueviolet;
+           }
+           @media screen and (max-width:600px)
+           {
+             .container
+              {
+                flex-direction: column;
+               
+             }
+             .one{
+                width:100%;
+                height:500px;
+             }
+            .two{
+                width:100%;
+                height:auto;
+            }
+           }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one"> <img src="image/img.jpg" width="440"> </div>
+        <div class="two">
+            <h1>Hello kitty</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ut rem labore nam totam tempora nisi dolorum tempore quas iusto fuga veritatis sit quo id at tenetur enim sapiente, rerum omnis odio? Dolor, distinctio deserunt accusantium dicta eveniet voluptas odit! align="center">
+        </p>  
+        <br>
+        <input type="submit" value="learn more">
+    </div>
+    </div>
+       
+</body>
+</html>
